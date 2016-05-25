@@ -1,0 +1,66 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: calibri;
+	box-sizing:border-box;
+	overflow: hidden;
+}
+.clear:after{
+	content: "";
+	clear: both;
+	display: block;
+}
+.green{color: green;}
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+.output{
+	width: 100%;
+	height: -moz-calc(100% - 30px);
+    height: -webkit-calc(100% - 30px);
+    height: -o-calc(100% - 30px);
+    height: calc(100% - 30px);
+	background: #000;
+	color: #fff;
+	padding: 5px;
+	overflow: auto;
+}
+.input{
+	width: 100%;
+	height: 30px;
+	background: #000;
+	color: #fff;
+	//border-top: 1px solid #fff;
+}
+.bash{
+	width: 30px;
+	height: 100%;
+	background: #000;
+	color: green;
+	border: none;
+	padding: 7px 5px;
+	float: left;
+}
+.inputBox{
+	width: -moz-calc(100% - 30px);
+    width: -webkit-calc(100% - 30px);
+    width: -o-calc(100% - 30px);
+    width: calc(100% - 30px);
+	height: 100%;
+	background: #000;
+	color: #fff;
+	border: none;
+	padding: 5px;
+	float: left;
+}
+.inputButton{
+	display: none;
+	width: 5%;
+	height: 100%;
+	background: #fff;
+	color: #000;
+	border: none;
+	padding: 5px;
+	float: left;
+}
